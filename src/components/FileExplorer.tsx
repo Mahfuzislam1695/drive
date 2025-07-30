@@ -88,13 +88,13 @@ const FileExplorer: React.FC<FileExplorerProps> = ({ state, setState }) => {
                 <div className="space-x-2">
                     <button
                         onClick={() => setShowCreateFolderModal(true)}
-                        className="bg-blue-500 text-white px-4 py-2 rounded"
+                        className="bg-blue-500 text-white px-4 py-2 rounded cursor-pointer"
                     >
                         New Folder
                     </button>
                     <button
                         onClick={() => setShowUploadFileModal(true)}
-                        className="bg-green-500 text-white px-4 py-2 rounded"
+                        className="bg-green-500 text-white px-4 py-2 rounded cursor-pointer"
                     >
                         Upload File
                     </button>
